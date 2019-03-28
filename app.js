@@ -4,6 +4,7 @@ const omdb = require('./omdb.js')
 
 const app = express()
 
+//Para heroku
 const port = process.env.PORT || 3000;
 
 const publicDir = path.join(__dirname, 'public')
